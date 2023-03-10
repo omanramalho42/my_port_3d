@@ -7,6 +7,9 @@ import {
   typescript,
   html,
   css,
+  nft,
+  amazon,
+  uber,
   reactjs,
   redux,
   tailwind,
@@ -23,20 +26,24 @@ import {
   jobit,
   tripguide,
   threejs,
+  agym,
+  greendot,
+  mobigap,
+  vhg
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Trabalhos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
@@ -116,55 +123,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "React.js | React Native | Node Js Fullstack Developer",
+    company_name: "Greendot Hub",
+    icon: greendot,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mar 2020 - Jun 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento e manutenção de aplicativos da web usando React.js e outras tecnologias relacionadas.",
+      "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
+      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+      "Participar de revisões de código e fornecer feedback construtivo a outros desenvolvedores.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React JS Frontend Developer",
+    company_name: "Mobigap",
+    icon: mobigap,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2021 - Out 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento e manutenção de aplicativos da web usando React.js",
+      "Otimização de algoritmos capazes de melhorar a performance do site afim de evitar o uso de libs desnecessárias",
+      "Código limpo de fácil entendimento e fácil manutenabilidade.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "React Js | Node js Fullstack Developer",
+    company_name: "VHG Soluões",
+    icon: vhg,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 - Set 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento e manutenção de aplicativos da web usando React.js e Node js.",
+      "Projeto de sistema de gestão de divídas de clientes.",
+      "Implementação relacionada a Api`s Rest Full e Soap.",
+      "Boas práticas de programação e código bem estruturado.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "PHP | MYSQL | JAVASCRIPT Fullstack Developer",
+    company_name: "Agym Care",
+    icon: agym,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Cargo atual",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento e manutenção de aplicativos da web usando PHP, Mysql, Javascript, Jquery.",
+      "Projeto de sistema de gestão de treino para idosos.",
+      "Entrega dentro do prazo conforme a prototipação.",
+      "Boa comunicação e transparência no desenvolvimento com acompanhamento do projeto em tempo real.",
     ],
   },
 ];
@@ -172,93 +178,93 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Eu pensei que era impossível fazer um site tão bonito quanto o nosso produto, mas Oman provou que eu estava errado.",
     name: "Sara Lee",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Greendot Hub",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Nunca conheci um desenvolvedor da Web que realmente se preocupasse com o sucesso de seus clientes como Oman.",
+    name: "Kaneson",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Mobigap World",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Depois que Oman otimizou nosso site, nosso tráfego aumentou 50%. Não podemos agradecê-los o suficiente!",
+    name: "Nickollas",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "VHG Soluões",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Nft Market Place BlockChain",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Um comércios online de artes nfts usando tecnologias descentralizadas, inspirado no opensea Block chain. Compra e venda de artes digitais",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Third Web",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Sanity",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nft,
+    source_code_link: "https://github.com/omanramalho42/opensea-blockchain-clone",
   },
   {
-    name: "Job IT",
+    name: "Ecommerce Inspirado na Amazon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Um ecommerce totalmente funcional com backend próprio, tela de dashboard para admin para acompanhar as vendas e resultados diários de alcance além de fornecer um gerenciamento fácil de produtos. Formas de pagamento com cartão incluso.",
     tags: [
       {
-        name: "react",
+        name: "Next js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "styled components",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: amazon,
+    source_code_link: "https://github.com/omanramalho42/Amazon",
   },
   {
-    name: "Trip Guide",
+    name: "Uber clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Um projeto inspirado no uber clone afim de inspirar mentes criativas e transparecer que qualquer aplicativo de celular hoje é alcançavel. Conta com o acesso ao google mapas e a todos os lugares do mundo além da medição da distância entre um ponto e outro.",
     tags: [
       {
-        name: "nextjs",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Sanity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Styled components",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: uber,
+    source_code_link: "https://github.com/omanramalho42/uber-clone",
   },
 ];
 

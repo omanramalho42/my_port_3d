@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -28,7 +29,7 @@ const ServiceCard = ({ index, title, icon }) => (
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
+          { title }
         </h3>
       </div>
     </motion.div>
@@ -39,19 +40,19 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introdução</p>
+        <h2 className={styles.sectionHeadText}>Visão geral.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Sou um desenvolvedor de software qualificado com experiência em TypeScript e
+        JavaScript e experiência em estruturas como React, Node.js e
+        React Native. Eu aprendo rápido e colaboro de perto com os clientes para
+        criar soluções eficientes, escaláveis ​​e fáceis de usar que resolvem
+        problemas do mundo real. Vamos trabalhar juntos para dar vida às suas ideias!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

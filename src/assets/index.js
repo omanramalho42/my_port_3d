@@ -7,6 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import agym from './company/agym.png';
+import greendot from './company/greendot.jpg';
+import vhg from './company/vhg.png';
+import mobigap from './company/mobigap.png';
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -30,11 +35,22 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import nft from './opensea_blockchain_clone.png';
+import amazon from './amazon_clone.png'
+import uber from './uber.png'
+
 export {
   logo,
   backend,
   creator,
   mobile,
+  nft,
+  amazon,
+  uber,
+  agym,
+  greendot,
+  mobigap,
+  vhg,
   web,
   github,
   menu,
